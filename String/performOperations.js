@@ -3,7 +3,7 @@
 //Assumion ==> X = 0 and array includes only ++ , --
 
 //o(n)
-function performOerations(){
+function performOperations(){
     let x = 0;
     let operationArray = ["X++", "++X", "X--"];
 
@@ -15,6 +15,6 @@ function performOerations(){
     console.log(result);
 }
 
-performOerations();
+performOperations();
 
 
